@@ -16,7 +16,7 @@ public class OctreeCppProject : BaseCppProject
     {
         base.ConfigureAll(conf, target);
 
-        conf.SolutionFolder = Constants.EXTERNAL_FOLDER;
+        conf.SolutionFolder = Constants.EXTERNAL_VS_CATEGORY;
 
         conf.Output = Project.Configuration.OutputType.None;
         conf.TargetPath = @"[project.SharpmakeCsPath]\Out\Bin\[target.Platform]-[target.Optimization]";
