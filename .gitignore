@@ -36,6 +36,8 @@ cmake-build-*
 .DS_Store
 
 *.vcxproj
+*.vcxproj.user
 *.vcxproj.filters
 out/
 x64/
+obj/
