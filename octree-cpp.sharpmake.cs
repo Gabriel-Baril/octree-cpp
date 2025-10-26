@@ -2,11 +2,11 @@ using System.IO; // For Path.Combine
 using Sharpmake; // Contains the entire Sharpmake object library.
 
 [Generate]
-public class OctreeCppProject : BaseCppProject
+public class HdnCodeExternalOctreeCppProject : BaseCppProject
 {
-    public OctreeCppProject()
+    public HdnCodeExternalOctreeCppProject()
     {
-        Name = "octree-cpp";
+        Name = "hdn.code.external.octree-cpp";
         // SourceRootPath = @"[project.SharpmakeCsPath]";
         AddTargets(TargetUtil.DefaultTarget);
     }
