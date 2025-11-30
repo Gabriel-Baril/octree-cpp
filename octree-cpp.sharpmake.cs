@@ -6,7 +6,7 @@ public class HdnCodeExternalOctreeCppProject : BaseCppProject
 {
     public HdnCodeExternalOctreeCppProject()
     {
-        Name = "hdn.code.external.octree-cpp";
+        Name = "dm.code.external.octree-cpp";
         // SourceRootPath = @"[project.SharpmakeCsPath]";
         AddTargets(TargetUtil.DefaultTarget);
     }
